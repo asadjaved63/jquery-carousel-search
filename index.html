@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+  <title>js-tutorials.com : live json search</title>
+</head>
+<style type="text/css">
+	.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+</style>
+<body>
+  <div class="container" style="padding:50px 250px;">
+    <h1>Live Search</h1>
+	<div id="header"></div>
+	<form role="form">
+        <div class="form-group">
+          <input type="input" class="form-control input-lg" id="txt-search" placeholder="Type your search character">
+        </div>
+	</form>
+	<div id="blogCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            As
+                                        </a>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                              <a href="#">
+                                            A2
+                                        </a>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            v3
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                           v2
+                                        </a>
+                                    </div>
+                               </div>
+                            </div>
+                            <!--.item-->
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                           anwer
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            ali
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            jawad
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            shahid
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!--.item-->
+                            <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                           saqib
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            saeed
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            farooq
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            ahmed
+                                        </a>
+                                    </div>
+                                    </div>
+                                
+                            </div>
+                            <!--.item-->
+                            <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                           Noah
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            Liam
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            William
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        <a href="#">
+                                            Benjamin
+                                        </a>
+                                    </div>
+                                    </div>
+                                
+                            </div>
+                            <!--.item-->
+
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
+	
+  </div>
+  <script type="text/javascript">
+  $(document).ready(function(){
+        $('#blogCarousel').carousel();
+
+        $("#txt-search").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            console.log(value);
+            if (value.length > 0) {
+                console.log('inside if');
+               $('html').find('.carousel-item').css('display','block');
+            }else{
+                console.log('inside else');
+                $('html').find('.carousel-item').css('display','none');
+                setTimeout(function(){
+                $('html').find('.carousel-item.active').css('display','block');
+                $('html').find('.carousel-item.active').each(function() {
+                  $('html').find('.col-md-3').css('display','block');  
+                });
+             }, 1000);
+            }
+            $('html').find(".carousel-inner .col-md-3").filter(function() {
+              $(this).toggle($(this).text().toLowerCase().indexOf(value) > 1);
+              
+          });
+        });
+
+  });
+</script>
+</body>
+</html>
